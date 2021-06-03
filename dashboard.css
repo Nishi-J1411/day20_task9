@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+#btn1{
+    width: 60px ;
+    height: 60px;
+}
+ .profile{
+    width: 60px ;
+    height: 60px;
+}
+.para span{
+    font-size: 13px;
+}
+.btn a:hover , p a:hover , h2 a:hover{
+    text-decoration: none;
+}
+.my-btn a{ 
+  font-size: 12px;
+}
+.nav-item a{
+    font-size: 14px;
+}
+.last_para{
+    font-size: 12px;
+}
