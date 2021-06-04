@@ -1,73 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboar2</title>
-    <link rel="stylesheet" href="dashboard.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboar2</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-      .my-col{
-          border: 2px solid red;
-      }
-      .my-row{
-          border: 2px solid green;
-      }
+    .my-col {
+      border: 2px solid red;
+    }
+
+    .my-row {
+      border: 2px solid green;
+    }
   </style>
 </head>
+
 <body>
-  <section>
-        <div class="container-fluid">
-            <div class="col my-col col-sm-2 " >
-            <div class="row my-row mt-4">
-              <h2 class="navbar-brand ml-2 "> <a class="font-weight-bold text-dark pl-5 d-block " href="#">Campers</a></h2>    
-            </div> 
-            <div class="row my-row mt-4 ml-0">
-                <button class="btn btn-md bringonbtn shadow rounded-circle mx-5 my-2 px-0 pb-0" id="btn1"> <a href="#"> <img class="img-responsive profile" src="img/profie.png" alt="" ></a></button></div>
-                <div class="para ml-5 "> <p class="username "> <a class="text-dark font-weight-bold" href="#">Robert Fox</a><br> <span class="text-center ml-3 font-weight-normal text-muted"> Master</span> </p>
-                 <div> <button class="btn my-btn btn-light btn-md bringonbtn shadow font-weight-bold ml-2"> <a class="text-dark text-no-link" href="#"> <i class="fa fa-star text-warning"></i> 4.8</a></button></div>
-            </div> 
-            <div class="row my-row mt-5 ml-4" width="auto">
-                <ul class="nav flex-column mt-4 bg-light">
-                    <li class="nav-item mb-3">
-                      <a class="nav-link active font-weight-bold text-secondary" href="#"> <i class="fa fa-group"></i> Team</a>
-                    </li>
-                    <li class="nav-item  mb-3 ">
-                      <a class="nav-link text-muted" href="#"><i class="fa fa-clock-o  fa-fw " ></i>Schedule</a>
-                    </li>
-                    <li class="nav-item  mb-3">
-                      <a class="nav-link text-muted" href="#"><i class="fa fa-trophy  fa-fw "></i>Awards</a>
-                    </li>
-                    <li class="nav-item  mb-3">
-                        <a class="nav-link text-muted" href="#"><i class="fa fa-puzzle-piece fa-fw  "></i>Collab</a>
-                      </li>
-                    
-                  </ul>
-            </div>
-            <div class="row my-row mt-5">
-              <button class="btn ml-5 btn-light btn-md bringonbtn shadow"> <i class="fa fa-connectdevelop fa-fw text-danger"></i></button>
-              
-            </div>  
-            <div class="row my-row mt-3">
-              <p class="last_para text-dark font-weight-bold ml-3 "> Invite your team and <br> <span class="ml-1"> start collaborating</span> </p>
-            </div> 
-            </div>
-           
-            </div>
-   </section>
-   <header>
-     <div class="container">
-    <div class="col my-col col-sm-10">
-      hey
+                                    <!-- -----------This is a entire container---------- -->
+    <div class="container-fluid mx-0">
+                                            <!-- -----This is entire section-------- -->
+      <section>
+                                               <!-- ---------This is entire row------- -->
+      <div class="row my-row">
+                                                          <!-- --------Side nav column ------- -->
+      <div class="col my-col col-sm-2 mx-4 bg-light">
+        <!--  brand name -->
+        <div class="row my-row mt-2">
+          <h2 class="navbar-brand ml-2 "> <a class="font-weight-bold text-dark pl-5 d-block " href="#">Campers</a></h2>
+        </div>
+
+        <div class="row my-row mt-4 pl-4">
+          <button class="btn btn-md bringonbtn shadow rounded-circle mx-5 my-2 px-0 pb-0" id="btn1"> 
+            <a href="#"> <img class="img-responsive profile" src="img/profie.png" alt=""></a>
+          </button>
+        </div>
+
+        <div class="para ml-5 ">
+          <p class="username "> 
+            <a class="text-dark font-weight-bold" href="#">Robert Fox</a><br> 
+            <span class="text-center ml-3 font-weight-normal text-muted"> Master</span> </p>
+             
+          <div> <button class="btn my-btn btn-light btn-md bringonbtn shadow font-weight-bold ml-2"> 
+            <a class="text-dark text-no-link" href="#"> <i class="fa fa-star text-warning"></i> 4.8</a>
+          </button>
+        </div>
+        </div>
+
+        <div class="row my-row mt-5 ml-4" width="auto">
+          <ul class="nav flex-column mt-4 bg-light">
+            <li class="nav-item mb-3">
+              <a class="nav-link active font-weight-bold text-secondary" href="#"> <i class="fa fa-group"></i> Team</a>
+            </li>
+            <li class="nav-item  mb-3 ">
+              <a class="nav-link text-muted" href="#"><i class="fa fa-clock-o  fa-fw "></i>Schedule</a>
+            </li>
+            <li class="nav-item  mb-3">
+              <a class="nav-link text-muted" href="#"><i class="fa fa-trophy  fa-fw "></i>Awards</a>
+            </li>
+            <li class="nav-item  mb-3">
+              <a class="nav-link text-muted" href="#"><i class="fa fa-puzzle-piece fa-fw  "></i>Collab</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="row my-row mt-5">
+          <button class="btn ml-5 btn-light btn-md bringonbtn shadow"> <i
+              class="fa fa-connectdevelop fa-fw text-danger"></i></button>
+          </div>
+
+        <div class="row my-row mt-3">
+          <p class="last_para text-dark font-weight-bold ml-3 "> Invite your team and <br> <span class="ml-1"> start
+              collaborating</span> </p>
+        </div>
+      </div>
+      <!-- ---------------------Side nav End ------------------------ -->
+     <header>
+       <div class="row my-row row-search " id="search-bar">
+      <div class="col mycol "> <nav class="navbar mt-2">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 ml-5 py-3 px-4 " type="search" placeholder="Search..." aria-label="Search" id="search">
+        </form>
+        <div class="row my-row mh-75">
+          <button class="filter btn bg-light font-weight-bold bg-gradient-danger" id="btn" > 
+            <a class="nav-link dropdown-toggle text-muted " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Item1</a>
+            <a class="dropdown-item" href="#">Item2</a>
+            <div class="dropdown-divider"></div>
+            </button> 
+        <button class="btn px-3 py-2 mx-5 bg-warning font-weight-bold" id="btn"> Go to Premium</button></div>
+      </nav>
+      
     </div>
-  </div>
-   </header>
-   
+    </div>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </header>
+</section>
+
+</div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

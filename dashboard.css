@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
+   
 }
 #btn1{
     width: 60px ;
@@ -24,4 +25,18 @@
 }
 .last_para{
     font-size: 12px;
+}
+#search{
+     width: 20vw;
+    border-radius: 50px;
+}
+.row-search{
+    width: 80vw;
+    height: 80vh;
+}
+#btn{
+    font-size: 10px ;
+}
+#search-bar{
+    background-color: rgb(255, 244, 234);
 }
