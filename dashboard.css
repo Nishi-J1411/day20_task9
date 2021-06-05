@@ -21,7 +21,7 @@
   font-size: 12px;
 }
 .nav-item a{
-    font-size: 14px;
+    font-size: 20px;
 }
 .last_para{
     font-size: 12px;
@@ -53,9 +53,28 @@ img.image{
     background-color:rgb(255, 244, 234) ;
 }
 .card{
-    width: 15vw;
+    width: 15vw; 
+}
+.card:hover{
+    
+   background-color: rgb(241, 233, 233);
 }
 #paragraph{
     text-align: center;
     font-size: 40px;
+    
+}
+.card-text {
+    font-size: 10px;
+}
+#parents{
+    width: 25px;
+    height: 25px;
+}
+#last-card{
+    width: 15vw ;
+    height: 35vh;
+}
+.para_span{
+    border-left: 2px solid lightgrey;
 }
