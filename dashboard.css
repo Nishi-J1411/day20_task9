@@ -45,8 +45,9 @@
     border: 1px solid lightgrey;
 }
 img.image{
-    width: 5vw;
-    height: 10vh;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px 0 30px;
 }
 #button-group{
     font-size:30px ;
@@ -72,9 +73,25 @@ img.image{
     height: 25px;
 }
 #last-card{
-    width: 15vw ;
-    height: 35vh;
+    width: 150px;
+    height: 300px;
 }
 .para_span{
     border-left: 2px solid lightgrey;
+}
+@media(min-width:481px) and (max-width:767px){
+    .sidenav{
+        display: none;
+    }
+    .main {
+        width: 100%;
+    }
+    .cardclass{
+        width: 100%;
+        padding: 0;
+    }
+    .cardimg{
+        height: 300px;
+     width: 500px;
+    }
 }
