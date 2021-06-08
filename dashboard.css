@@ -34,6 +34,7 @@
     width: 80vw;
     height: 100vh;
 }
+
 #btn{
     font-size: 10px ;
 }
@@ -74,7 +75,15 @@ img.image{
 }
 #last-card{
     width: 150px;
-    height: 300px;
+    height: 250px;
+}
+.card{
+    border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+}
+.card button.btn{
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
 }
 .para_span{
     border-left: 2px solid lightgrey;
@@ -91,7 +100,10 @@ img.image{
         padding: 0;
     }
     .cardimg{
-        height: 300px;
+        /* height: 300px; */
      width: 500px;
+    }
+    .row-search{
+        height: 200vh;
     }
 }
