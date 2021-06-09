@@ -58,13 +58,11 @@ img.image{
     width: 15vw; 
 }
 .card:hover{
-    
    background-color: rgb(241, 233, 233);
 }
 #paragraph{
     text-align: center;
     font-size: 40px;
-    
 }
 .card-text {
     font-size: 10px;
@@ -77,9 +75,10 @@ img.image{
     width: 150px;
     height: 250px;
 }
-.card{
-    border-bottom-left-radius: 50px;
-   border-bottom-right-radius: 50px;
+#cardfooter{
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .card button.btn{
    border-bottom-left-radius: 20px;
@@ -88,7 +87,7 @@ img.image{
 .para_span{
     border-left: 2px solid lightgrey;
 }
-@media(min-width:481px) and (max-width:767px){
+@media(min-width:360px) and (max-width:767px){
     .sidenav{
         display: none;
     }
